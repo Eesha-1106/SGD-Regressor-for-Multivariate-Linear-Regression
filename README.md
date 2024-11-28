@@ -8,10 +8,14 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+```
+1.Import the required packages and print the present data. 
+2.Print the placement data and salary data. 
+3.Find the null and duplicate values.
+4.Using logistic regression find the predicted values of accuracy , confusion matrices. 
+5.Display the results.
+```
+ 
 
 ## Program:
 ```
@@ -20,6 +24,7 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by:Eesha Ranka
 RegisterNumber:24900107 
 */
+```
 ```
 import numpy as np
 from sklearn.datasets import fetch_california_housing
@@ -48,8 +53,10 @@ print(y_pred)
 mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)
 print("\nPredictions:\n",y_pred[:5])
+```
 
 ## Output:
+```
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 [[ 1.43668576 35.47234132]
  [ 1.98591082 35.70522109]
@@ -66,6 +73,7 @@ Predictions:
  [ 2.73244879 35.65084459]
  [ 1.34445791 35.86093014]
  [ 2.6595833  35.69618291]]
+```
 
 
 ## Result:
